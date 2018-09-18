@@ -1,0 +1,163 @@
+body {
+	background-color: #dddddd ;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin-top: 8%;
+}
+h1 {
+    font-family: 'Josefin Slab', 'Times';
+    font-size: 4.3em;
+    color: #333333;
+    text-shadow:  3px 3px 15px #5e5e5e;
+    line-height: 0.3;
+    text-align: center;
+}
+#another {
+	font-size: 2em;
+}
+#meme {
+	line-height: 0.5;
+	font-size: 5em;
+}
+#button {
+	display: inline;
+    font-family: 'Josefin Slab', 'Times';
+	box-shadow: 3px 3px 2px #BE3077;
+	background-color: deepPink;
+	font-size: 3em;
+	padding: 0.6% 0.6% 0% 0.6%;
+	color: white;
+	border: none;
+	margin-left: 0.4%;
+	margin-right: 0.4%;
+	text-align: center;
+}
+#button:focus {
+	outline: 0px;
+}
+#button:active {
+	background-color: #BE3077;
+	margin-left: 0.9%;
+	margin-top: 0.27%;
+	box-shadow: 0px 0px 2px #BE3077;
+}
+#button:hover {
+	background-color: #BE3077;
+	cursor: pointer;
+}
+#pilvänster {
+	display: inline;
+	font-size: 3.5em;
+	position: absolute;
+	left: 40%;
+	bottom: 32.6%;
+}
+#pilhöger {
+	display: inline;
+	font-size: 3.5em;
+	position: absolute;
+	right: 39%;
+	bottom: 32.6%;
+}
+html { 
+	overflow-x: hidden;
+	overflow-y: hidden; 
+}
+#nav {
+	background-color: rgba(0, 0, 0, 0.75);
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 4%;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	font-family: 'Kosugi', sans-serif;
+	font-size: 1em;
+}
+.img {
+	width: 1.3%;
+	margin-top: 0.5%;
+	position: fixed;
+}
+.länkar {
+	position: absolute;
+	top: -0.6vw;
+	color: black;
+	text-decoration: none;
+}
+#youtube {
+	left: 72%;
+}
+#twitter {
+	margin-top: 0.25%;
+	width: 1.5%;
+	left: 79%;
+}
+#soundcloud {
+	margin-top: 0.25%;
+	width: 1.5%;
+	left: 86%;
+}
+#github {
+	margin-top: 0.35%;
+	left: 94.7%;
+}
+#youtubetext {
+	left: 73.7%;
+}
+#youtubetext:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+#twittertext {
+	left: 80.8%;
+}
+#twittertext:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+#soundcloudtext {
+	left: 88%;
+}
+#soundcloudtext:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+#githubtext {
+	left: 96.5%;
+}
+#githubtext:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+#madeby {
+	left: 0.6%;
+}
+#theuselessweb {
+	left: 16.4%;
+	color: #05007f;
+}
+#theuselessweb:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+#linje1 {
+	right: 21.6%;
+}
+#linje2 {
+	right: 14.5%;
+}
+#linje3 {
+	right: 5.75%;
+}
+#antalprocent {
+	right: 47%;
+}
+#reset {
+	right: 43.7%;
+}
+#reset:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
